@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\TMS.Api.csproj": {}
+    "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\TMS.Api.csproj": {
+    "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\TMS.Api.csproj",
-        "projectName": "TMS.Api",
-        "projectPath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\TMS.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
+        "projectName": "TMS.Data",
+        "projectPath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
         "packagesPath": "C:\\Users\\Luka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\obj\\",
+        "outputPath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,10 +49,6 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -67,9 +63,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
