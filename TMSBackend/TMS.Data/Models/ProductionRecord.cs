@@ -8,22 +8,13 @@ namespace TMS.Data.Models
 {
     public class ProductionRecord
     {
-        public int ProductionRecordID { get; set; } // Primary Key
-        public int TyreID { get; set; } // Foreign Key to Tyre
-        public Tyre Tyre { get; set; } // Navigation property
+        public int Id { get; set; }
+        public string Action { get; set; }  // Description of the action performed
+        public DateTime ActionTimestamp { get; set; }
+        public int PerformedById { get; set; } // FK to User
 
-        public int OperatorID { get; set; } // Foreign Key to ProductionOperator
-        public ProductionOperator Operator { get; set; } // Navigation property
-
-        public DateTime ProductionDate { get; set; }
-        public string ProductionShift { get; set; }
-        public string MachineNumber { get; set; }
-        public int QuantityProduced { get; set; }
-
-        public string LoggedBy { get; set; }
-        public DateTime LoggedAt { get; set; }
-        public string LastModifiedBy { get; set; }
-        public DateTime LastModifiedAt { get; set; }
+        // Navigation properties
+        public TyreProduction TyreProduction { get; set; }
+        public User PerformedBy { get; set; }  // Relationship with User
     }
-
 }

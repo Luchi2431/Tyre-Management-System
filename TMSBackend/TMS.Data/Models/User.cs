@@ -9,12 +9,12 @@ namespace TMS.Data.Models
 {
     public class User
     {
-        public int UserID { get; set; } // Primary Key
+        public int Id { get; set; }
         public string Username { get; set; }
-        public string UserRole { get; set; } // Enum: "ProductionOperator", "QualitySupervisor", "BusinessUnitLeader"
+        public string Password { get; set; }
+        public UserRole UserRole { get; set; } // Navigation property to UserRole
 
-        // Navigation properties
-        public List<ActionLog> ActionLogs { get; set; }
+        public ICollection<TyreProduction> TyreProductions { get; set; }
     }
 
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TMS.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff9975d138b7a5e0e3a48be4bf4f280968b40e07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b12e9030d61e18fab095ce4bb56fe4295ce488f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TMS.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TMS.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
