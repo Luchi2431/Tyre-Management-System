@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TMS.Data.Context;
 using TMS.Data.Interfaces;
+using TMS.Data.Models;
 
 namespace TMS.Data.Repositories
 {
@@ -16,6 +17,14 @@ namespace TMS.Data.Repositories
         {
             _db = db;
         }
+
+        public User FIndUser(string username)
+        {
+            User u = _db.Users.FirstOrDefault(user => user.Username == username);
+            return u;
+        }
+
+
 
     }
 }

@@ -5,10 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using TMS.Data.Models;
 
-namespace TMS.Data.Interfaces
+namespace TMS.Data.Services.Interfaces
 {
-    public interface IUserRepository
+    public interface IUserService
     {
-        User FIndUser(string username);
+        Task<string> LoginAsync(string username, string password);
+        
+
     }
 }

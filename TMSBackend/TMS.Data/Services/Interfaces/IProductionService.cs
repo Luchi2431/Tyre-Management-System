@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TMS.Data.Models;
 
-namespace TMS.Data.Interfaces
+namespace TMS.Data.Services.Interfaces
 {
-    public interface IUserRepository
+    internal interface IProductionService
     {
-        User FIndUser(string username);
     }
 }
