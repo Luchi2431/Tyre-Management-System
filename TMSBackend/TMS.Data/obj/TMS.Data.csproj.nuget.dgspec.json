@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj": {}
+    "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj": {
+    "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
         "projectName": "TMS.Data",
-        "projectPath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
-        "packagesPath": "C:\\Users\\Luka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\obj\\",
+        "projectPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
+        "packagesPath": "C:\\Users\\Zdravo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Luka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Zdravo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +48,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -67,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

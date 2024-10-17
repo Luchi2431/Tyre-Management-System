@@ -1,20 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//qQWDScrLQ=",
+  "dgSpecHash": "eEK/H1UIHbB8LbuSGdQMfr16+81M4Yrc2iygOGbTl250RUq4aHHmELFItLEwrhjMPLHgKixUlJIjQ9X8jQKLaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luka\\OneDrive\\Desktop\\TigarTyresTMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.10\\microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "C:\\Users\\Luka\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
