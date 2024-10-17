@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TMS.Data.DTO;
 using TMS.Data.Services.Interfaces;
 
 namespace TMS.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/authentification")]
     public class AuthenticationController : Controller
