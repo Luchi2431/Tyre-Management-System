@@ -45,6 +45,7 @@ namespace TMS.Data.Context
             string hashed_supervisor1 = BCrypt.Net.BCrypt.HashPassword(supervisor1);
             string hashed_leader1 = BCrypt.Net.BCrypt.HashPassword(leader1);
 
+
             modelBuilder.Entity<User>().HasData(
                 new User { Id = 1, Username = "operator1", Password = hashed_operator1, UserRole = Enums.UserRole.ProductionOperator },
                 new User { Id = 2, Username = "supervisor1", Password = hashed_supervisor1, UserRole = Enums.UserRole.QualitySupervisor },

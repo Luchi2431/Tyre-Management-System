@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using TMS.Data.Context;
 using TMS.Data.Interfaces;
+using TMS.Data.Map;
 using TMS.Data.Repositories;
 using TMS.Data.Services;
 using TMS.Data.Services.Interfaces;
@@ -32,9 +33,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 // Registering services for dependency injection
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductionService, ProductionService>();
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProductionRecordRepository, ProductionRecordRepository>();
 
 
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
 

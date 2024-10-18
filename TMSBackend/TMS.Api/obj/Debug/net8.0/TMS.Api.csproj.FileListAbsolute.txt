@@ -292,3 +292,5 @@ C:\Users\Luka\OneDrive\Desktop\TigarTyresTMS\Tyre-Management-System\TMSBackend\T
 C:\Users\Zdravo\OneDrive\Desktop\TMS\Tyre-Management-System\TMSBackend\TMS.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Zdravo\OneDrive\Desktop\TMS\Tyre-Management-System\TMSBackend\TMS.Api\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Users\Zdravo\OneDrive\Desktop\TMS\Tyre-Management-System\TMSBackend\TMS.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Zdravo\OneDrive\Desktop\TMS\Tyre-Management-System\TMSBackend\TMS.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Zdravo\OneDrive\Desktop\TMS\Tyre-Management-System\TMSBackend\TMS.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
