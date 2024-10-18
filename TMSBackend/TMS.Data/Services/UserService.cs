@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Org.BouncyCastle.Crypto.Generators;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 using TMS.Data.Interfaces;
 using TMS.Data.Models;
 using TMS.Data.Services.Interfaces;
+
 
 namespace TMS.Data.Services
 {
@@ -29,7 +31,7 @@ namespace TMS.Data.Services
         public async Task<string> LoginAsync(string username, string password)
         {
             var user = _userRepository.FIndUser(username);
-            if (user == null || user.Password != password)
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
             {
                 throw new UnauthorizedAccessException("Invalid credentials");
             }
@@ -60,8 +62,11 @@ namespace TMS.Data.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-       
 
-       
+        public string HashPassword(string password)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(password);
+        }
+
     }
 }

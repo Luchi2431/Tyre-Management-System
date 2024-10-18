@@ -38,10 +38,17 @@ namespace TMS.Data.Context
                 .HasIndex(u => u.Username)
                 .IsUnique();
 
+            string operator1 = "operator1";
+            string supervisor1= "supervisor1";
+            string leader1 = "leader1";
+            string hashed_operator1 = BCrypt.Net.BCrypt.HashPassword(operator1);
+            string hashed_supervisor1 = BCrypt.Net.BCrypt.HashPassword(supervisor1);
+            string hashed_leader1 = BCrypt.Net.BCrypt.HashPassword(leader1);
+
             modelBuilder.Entity<User>().HasData(
-                new User { Id = 1, Username = "operator1", Password = "hashed password", UserRole = Enums.UserRole.ProductionOperator },
-                new User { Id = 2, Username = "supervisor1", Password = "hashed password", UserRole = Enums.UserRole.QualitySupervisor },
-                new User { Id = 3, Username = "leader1", Password = "hashed password", UserRole = Enums.UserRole.BusinessUnitLeader }
+                new User { Id = 1, Username = "operator1", Password = hashed_operator1, UserRole = Enums.UserRole.ProductionOperator },
+                new User { Id = 2, Username = "supervisor1", Password = hashed_supervisor1, UserRole = Enums.UserRole.QualitySupervisor },
+                new User { Id = 3, Username = "leader1", Password = hashed_leader1, UserRole = Enums.UserRole.BusinessUnitLeader }
 
                 );
 

@@ -111,9 +111,9 @@ namespace TMS.Data.Migrations
                 columns: new[] { "Id", "Password", "UserRole", "Username" },
                 values: new object[,]
                 {
-                    { 1, "hashed password", 0, "operator1" },
-                    { 2, "hashed password", 1, "supervisor1" },
-                    { 3, "hashed password", 2, "leader1" }
+                    { 1, "$2a$11$q9DiZgn5XNj/.rEK6oklWer8JYGKtZIDFYH6Fk6i2VqNv9VDrhXBu", 0, "operator1" },
+                    { 2, "$2a$11$sdZS81IWrpZ8.1/FJScm0.Y4z8nSSDyrFyZVs9JX74MryxOCQ/Xx2", 1, "supervisor1" },
+                    { 3, "$2a$11$aJdhRZu6jvS0t.1miya.becFFWbTQnWATVquoYaROCU4NqmiBKfu6", 2, "leader1" }
                 });
 
             migrationBuilder.InsertData(
@@ -121,8 +121,8 @@ namespace TMS.Data.Migrations
                 columns: new[] { "Id", "MachineNumber", "OperatorId", "ProductionDate", "ProductionShift", "Quantity", "TyreCode" },
                 values: new object[,]
                 {
-                    { 1, "M001", 1, new DateTime(2024, 10, 17, 11, 43, 39, 654, DateTimeKind.Local).AddTicks(9644), 0, 100, "T123" },
-                    { 2, "M002", 1, new DateTime(2024, 10, 17, 11, 43, 39, 654, DateTimeKind.Local).AddTicks(9705), 2, 150, "T124" }
+                    { 1, "M001", 1, new DateTime(2024, 10, 18, 10, 35, 34, 39, DateTimeKind.Local).AddTicks(8726), 0, 100, "T123" },
+                    { 2, "M002", 1, new DateTime(2024, 10, 18, 10, 35, 34, 39, DateTimeKind.Local).AddTicks(8893), 2, 150, "T124" }
                 });
 
             migrationBuilder.InsertData(
@@ -130,8 +130,8 @@ namespace TMS.Data.Migrations
                 columns: new[] { "Id", "DateOfSale", "DestinationMarket", "Price", "PurchasingCompany", "QuantitySold", "ReferenceProductionId", "TyreName", "UnitOfMeasure" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2024, 10, 17, 11, 43, 39, 654, DateTimeKind.Local).AddTicks(9756), "Local", 100.00m, "ABC Ltd.", 50, 1, "T123", "pieces" },
-                    { 2, new DateTime(2024, 10, 17, 11, 43, 39, 654, DateTimeKind.Local).AddTicks(9765), "International", 120.00m, "XYZ Corp.", 30, 2, "T124", "pieces" }
+                    { 1, new DateTime(2024, 10, 18, 10, 35, 34, 39, DateTimeKind.Local).AddTicks(9063), "Local", 100.00m, "ABC Ltd.", 50, 1, "T123", "pieces" },
+                    { 2, new DateTime(2024, 10, 18, 10, 35, 34, 39, DateTimeKind.Local).AddTicks(9084), "International", 120.00m, "XYZ Corp.", 30, 2, "T124", "pieces" }
                 });
 
             migrationBuilder.CreateIndex(
