@@ -5,7 +5,7 @@ using TMS.Data.Services.Interfaces;
 
 namespace TMS.Api.Controllers
 {
-    [Authorize]
+    
     [ApiController]
     [Route("api/authentification")]
     public class AuthenticationController : Controller

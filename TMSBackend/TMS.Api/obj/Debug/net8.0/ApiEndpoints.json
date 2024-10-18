@@ -14,5 +14,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.ProductionController",
+    "Method": "CreateProductionRecord",
+    "RelativePath": "api/controller/createRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productionDTO",
+        "Type": "TMS.Data.DTO.ProductionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.ProductionController",
+    "Method": "GetHistory",
+    "RelativePath": "api/controller/history/{operatorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "operatorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

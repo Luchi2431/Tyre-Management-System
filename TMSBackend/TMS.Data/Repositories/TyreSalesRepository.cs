@@ -9,5 +9,8 @@ namespace TMS.Data.Repositories
 {
     public class TyreSalesRepository : ITyreSalesRepository
     {
+        public TyreSalesRepository()
+        {
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TMS.Data.Services.Interfaces
 {
-    internal interface IQualitySupervisorService
+    public interface IQualitySupervisorService
     {
     }
 }
