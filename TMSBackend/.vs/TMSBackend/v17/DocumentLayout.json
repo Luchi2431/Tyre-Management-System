@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\TMS.Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\ProductionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Api\\Controllers\\ProductionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|solutionrelative:tms.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Migrations\\20241018105945_UpdatedProductScheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Migrations\\20241018105945_UpdatedProductScheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\dto\\loginresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\dto\\loginresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\services\\productionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\dto\\productiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\dto\\productiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.api\\controllers\\productioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|solutionrelative:tms.api\\controllers\\productioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|solutionrelative:tms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|solutionrelative:tms.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90215A5F-9E9E-4F7B-9473-803AAA1AD6C9}|TMS.Api\\TMS.Api.csproj|solutionrelative:tms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\tms.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\tms.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,80 +59,56 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Migrations\\20241017092921_InitialCreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\repositories\\productionrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\repositories\\productionrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\ProductionRecordRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Repositories\\ProductionRecordRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\interfaces\\iproductionrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\interfaces\\iproductionrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\ProductionDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\DTO\\ProductionDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\services\\interfaces\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\services\\interfaces\\iproductionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Interfaces\\IProductionRecordRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Interfaces\\IProductionRecordRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\models\\productionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\models\\productionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\ProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Services\\ProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\context\\tmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\context\\tmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Services\\Interfaces\\IProductionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\models\\tyreproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\models\\tyreproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\AuthenticationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Api\\Controllers\\AuthenticationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\ProductionRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Models\\ProductionRecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\migrations\\20241018105945_updatedproductscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\migrations\\20241018105945_updatedproductscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Context\\TMSContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Context\\TMSContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\enums\\productionshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\enums\\productionshift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\TyreProduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Models\\TyreProduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\services\\interfaces\\iqualitysupervisorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\services\\interfaces\\iqualitysupervisorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Map\\MappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Map\\MappingProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\models\\tyresales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\models\\tyresales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Enums\\ProductionShift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Enums\\ProductionShift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Repositories\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Services\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IQualitySupervisorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Services\\Interfaces\\IQualitySupervisorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\TyreSales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Models\\TyreSales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TMS.Data\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|c:\\users\\zdravo\\onedrive\\desktop\\tms\\tyre-management-system\\tmsbackend\\tms.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE62E93-BE90-4579-BC6E-52D64E329BE7}|TMS.Data\\TMS.Data.csproj|solutionrelative:tms.data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,59 +118,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginResultDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\LoginResultDTO.cs",
+              "RelativeDocumentMoniker": "TMS.Data\\DTO\\LoginResultDTO.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\LoginResultDTO.cs",
+              "RelativeToolTip": "TMS.Data\\DTO\\LoginResultDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:24:54.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "TMS.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\appsettings.json",
-              "RelativeToolTip": "TMS.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-18T11:14:39.655Z"
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "TMS.Data\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "TMS.Data\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:19:00.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProductionRecordRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\ProductionRecordRepository.cs",
-              "RelativeDocumentMoniker": "TMS.Data\\Repositories\\ProductionRecordRepository.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\ProductionRecordRepository.cs",
-              "RelativeToolTip": "TMS.Data\\Repositories\\ProductionRecordRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAxwB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:05:31.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductionController.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\ProductionController.cs",
-              "RelativeDocumentMoniker": "TMS.Api\\Controllers\\ProductionController.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\ProductionController.cs",
-              "RelativeToolTip": "TMS.Api\\Controllers\\ProductionController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:02:59.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ProductionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\ProductionDTO.cs",
               "RelativeDocumentMoniker": "TMS.Data\\DTO\\ProductionDTO.cs",
               "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\DTO\\ProductionDTO.cs",
               "RelativeToolTip": "TMS.Data\\DTO\\ProductionDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:10:17.538Z"
+              "WhenOpened": "2024-10-18T09:10:17.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductionService.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\ProductionService.cs",
+              "RelativeDocumentMoniker": "TMS.Data\\Services\\ProductionService.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\ProductionService.cs",
+              "RelativeToolTip": "TMS.Data\\Services\\ProductionService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:07:05.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "TMS.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\appsettings.json",
+              "RelativeToolTip": "TMS.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T11:14:39.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TMS.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Program.cs",
+              "RelativeToolTip": "TMS.Api\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:51:44.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "TMS.Api\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "TMS.Api\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:51:44.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TMS.Data\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\UserService.cs",
+              "RelativeToolTip": "TMS.Data\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:51:44.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TMS.Data\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TMS.Data\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:06:40.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TMS.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
+              "RelativeDocumentMoniker": "TMS.Data\\TMS.Data.csproj",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
+              "RelativeToolTip": "TMS.Data\\TMS.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T08:48:47.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "IProductionRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Interfaces\\IProductionRecordRepository.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Interfaces\\IProductionRecordRepository.cs",
@@ -170,36 +264,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductionService.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\ProductionService.cs",
-              "RelativeDocumentMoniker": "TMS.Data\\Services\\ProductionService.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\ProductionService.cs",
-              "RelativeToolTip": "TMS.Data\\Services\\ProductionService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCQAAABjAAAA",
+              "DocumentIndex": 7,
+              "Title": "ProductionController.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\ProductionController.cs",
+              "RelativeDocumentMoniker": "TMS.Api\\Controllers\\ProductionController.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\ProductionController.cs",
+              "RelativeToolTip": "TMS.Api\\Controllers\\ProductionController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:07:05.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TMS.Data.csproj",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
-              "RelativeDocumentMoniker": "TMS.Data\\TMS.Data.csproj",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\TMS.Data.csproj",
-              "RelativeToolTip": "TMS.Data\\TMS.Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-18T08:48:47.96Z",
+              "WhenOpened": "2024-10-18T09:02:59.199Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TMS.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TMS.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-21T10:40:59.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "ProductionRecordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\ProductionRecordRepository.cs",
+              "RelativeDocumentMoniker": "TMS.Data\\Repositories\\ProductionRecordRepository.cs",
+              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\ProductionRecordRepository.cs",
+              "RelativeToolTip": "TMS.Data\\Repositories\\ProductionRecordRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:05:31.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IProductionService.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IProductionService.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Services\\Interfaces\\IProductionService.cs",
@@ -211,19 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "TMS.Api\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "TMS.Api\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T07:51:44.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ProductionRecord.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\ProductionRecord.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Models\\ProductionRecord.cs",
@@ -235,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "TMSContext.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Context\\TMSContext.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Context\\TMSContext.cs",
@@ -247,19 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TMS.Data\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\UserService.cs",
-              "RelativeToolTip": "TMS.Data\\Services\\UserService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAowBgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T07:51:44.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "TyreProduction.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\TyreProduction.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Models\\TyreProduction.cs",
@@ -271,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Map\\MappingProfile.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Map\\MappingProfile.cs",
@@ -283,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "20241018105945_UpdatedProductScheme.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Migrations\\20241018105945_UpdatedProductScheme.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Migrations\\20241018105945_UpdatedProductScheme.cs",
@@ -295,19 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Program.cs",
-              "RelativeDocumentMoniker": "TMS.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\Program.cs",
-              "RelativeToolTip": "TMS.Api\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACYAAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T07:51:44.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ProductionShift.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Enums\\ProductionShift.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Enums\\ProductionShift.cs",
@@ -319,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Repositories\\UserRepository.cs",
@@ -331,19 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "TMS.Data\\Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "TMS.Data\\Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:06:40.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "IQualitySupervisorService.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Services\\Interfaces\\IQualitySupervisorService.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Services\\Interfaces\\IQualitySupervisorService.cs",
@@ -355,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "TyreSales.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\TyreSales.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Models\\TyreSales.cs",
@@ -367,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Api\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "TMS.Api\\WeatherForecast.cs",
@@ -378,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Models\\User.cs",
@@ -390,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "20241017092921_InitialCreation.cs",
               "DocumentMoniker": "C:\\Users\\Zdravo\\OneDrive\\Desktop\\TMS\\Tyre-Management-System\\TMSBackend\\TMS.Data\\Migrations\\20241017092921_InitialCreation.cs",
               "RelativeDocumentMoniker": "TMS.Data\\Migrations\\20241017092921_InitialCreation.cs",

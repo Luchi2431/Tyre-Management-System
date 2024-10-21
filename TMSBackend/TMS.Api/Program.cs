@@ -42,6 +42,16 @@ builder.Services.AddScoped<IProductionRecordRepository, ProductionRecordReposito
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 
 builder.Services.AddDbContext<TMSContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TMSContext")));
@@ -55,6 +65,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1"));
 }
+
+app.UseCors("AllowAllOrigins");
 
 app.UseHttpsRedirection();
 

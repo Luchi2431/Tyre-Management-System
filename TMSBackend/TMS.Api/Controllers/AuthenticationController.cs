@@ -22,12 +22,12 @@ namespace TMS.Api.Controllers
         {
             try
             {
-                var token = await _userService.LoginAsync(loginDTO.Username, loginDTO.Password);
-                if(token  == null)
+                var loginResult = await _userService.LoginAsync(loginDTO.Username, loginDTO.Password);
+                if(loginResult  == null)
                 {
                     return BadRequest(new { Message = "Login Failed" });
                 }
-                return Ok(new { Token = token });
+                return Ok(new { Token = loginResult.Token,UserId = loginResult.UserId });
                 
             }catch(UnauthorizedAccessException Ex)
             {

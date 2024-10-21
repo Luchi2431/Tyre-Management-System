@@ -8,6 +8,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using TMS.Data.DTO;
 using TMS.Data.Interfaces;
 using TMS.Data.Models;
 using TMS.Data.Services.Interfaces;
@@ -28,15 +29,22 @@ namespace TMS.Data.Services
         }
 
 
-        public async Task<string> LoginAsync(string username, string password)
+        public async Task<LoginResultDTO> LoginAsync(string username, string password)
         {
             var user = _userRepository.FIndUser(username);
             if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
             {
                 throw new UnauthorizedAccessException("Invalid credentials");
             }
-            return GenerateJwtToken(user);
+            var token =  GenerateJwtToken(user);
+            return new LoginResultDTO
+            {
+                Token = token,
+                UserId = user.Id
+            };
         }
+
+
 
         private string GenerateJwtToken(User user)
         {
