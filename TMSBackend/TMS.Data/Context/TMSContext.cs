@@ -21,7 +21,7 @@ namespace TMS.Data.Context
         //DB Sets for DTO
         public DbSet<ProductionByDayDTO> ProductionByDay { get; set; }
 
-
+        public DbSet<ProductionByShiftDTO> ProductionByShift { get; set; }
 
 
 
