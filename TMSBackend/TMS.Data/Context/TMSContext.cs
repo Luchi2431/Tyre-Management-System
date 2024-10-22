@@ -18,6 +18,9 @@ namespace TMS.Data.Context
 
         public DbSet<User> Users { get; set; }
 
+
+
+
         //DB Sets for DTO
         public DbSet<ProductionByDayDTO> ProductionByDay { get; set; }
 
@@ -28,6 +31,8 @@ namespace TMS.Data.Context
         public DbSet<ProductionByOperatorDTO> ProductionByOperator { get; set; }
 
         public DbSet<StockBalanceDTO> StockBalance { get; set; }
+
+
 
 
 

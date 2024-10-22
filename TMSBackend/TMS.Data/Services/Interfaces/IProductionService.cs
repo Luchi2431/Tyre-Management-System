@@ -10,7 +10,7 @@ namespace TMS.Data.Services.Interfaces
 {
     public interface IProductionService
     {
-        Task CreateProductionAsync(ProductionDTO productionDTO);
+        Task RegisterProductionAsync(ProductionDTO productionDTO);
         Task<IEnumerable<ProductionRecord>> GetProductionRecordsByOpId(int operatorId);
     }
 }

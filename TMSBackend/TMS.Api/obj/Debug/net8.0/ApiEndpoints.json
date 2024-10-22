@@ -96,5 +96,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "RegisterTyreSale",
+    "RelativePath": "api/supervisor/register-sale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tyreSalesDTO",
+        "Type": "TMS.Data.DTO.TyreSalesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

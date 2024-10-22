@@ -23,7 +23,7 @@ namespace TMS.Api.Controllers
                 return BadRequest("Invalid production data.");
             }
 
-            await _productionService.CreateProductionAsync(productionDTO);
+            await _productionService.RegisterProductionAsync(productionDTO);
 
             return CreatedAtAction(nameof(CreateProductionRecord), new { id = productionDTO.Id }, productionDTO);
         }

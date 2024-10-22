@@ -24,7 +24,7 @@ namespace TMS.Data.Services
         }
 
 
-        public async Task CreateProductionAsync(ProductionDTO productionDTO)
+        public async Task RegisterProductionAsync(ProductionDTO productionDTO)
         {
             var productionRecord = _mapper.Map<ProductionRecord>(productionDTO);
 

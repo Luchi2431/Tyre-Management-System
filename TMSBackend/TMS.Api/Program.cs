@@ -35,10 +35,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProductionService, ProductionService>();
 builder.Services.AddScoped<IBusinessUnitService,BusinessUnitService>();
+builder.Services.AddScoped<ISupervisorService, SupervisorService>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductionRecordRepository, ProductionRecordRepository>();
 builder.Services.AddScoped<ITyreProductionRepository,TyreProductionRepository>();
+builder.Services.AddScoped<ITyreSalesRepository,TyreSalesRepository>();
 
 
 
