@@ -4,7 +4,7 @@ using TMS.Data.Services.Interfaces;
 namespace TMS.Api.Controllers
 {
     [ApiController]
-    [Route("api/bussinesUnit")]
+    [Route("api/bussines-unit")]
     public class BussinesUnitController : Controller
     {
         private readonly IBusinessUnitService _businessUnitService;
