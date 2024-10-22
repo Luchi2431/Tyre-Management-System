@@ -10,5 +10,9 @@ namespace TMS.Data.Interfaces
     public interface ITyreProductionRepository
     {
         Task<IEnumerable<ProductionByDayDTO>> GetProductionByDayAsync();
+        Task<IEnumerable<ProductionByShiftDTO>> GetProductionByShiftAsync();
+        Task<IEnumerable<ProductionByMachineDTO>> GetProductionByMachinesAsync();
+        Task<IEnumerable<ProductionByOperatorDTO>> GetProductionByOperatorAsync();
+        Task<IEnumerable<StockBalanceDTO>> GetStockBalanceASync();
     }
 }

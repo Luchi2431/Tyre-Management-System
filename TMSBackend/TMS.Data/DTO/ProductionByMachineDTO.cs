@@ -9,7 +9,7 @@ namespace TMS.Data.DTO
     public class ProductionByMachineDTO
     {
 
-        public int MachineNumber {  get; set; }
+        public string MachineNumber {  get; set; }
 
         public int TotalProduction { get; set; }
 

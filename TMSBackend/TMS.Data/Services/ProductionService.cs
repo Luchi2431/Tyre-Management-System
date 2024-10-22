@@ -38,5 +38,7 @@ namespace TMS.Data.Services
         {
             return await _productionRecordRepository.GetByOperatorIdAsync(operatorId);
         }
+
+        
     }
 }

@@ -21,5 +21,26 @@ namespace TMS.Data.Services
         {
             return await _tyreProductionRep.GetProductionByDayAsync();
         }
+
+        public async Task<IEnumerable<ProductionByShiftDTO>> GetProductionByShiftServiceASync()
+        {
+            return await _tyreProductionRep.GetProductionByShiftAsync();
+        }
+
+        public async Task<IEnumerable<ProductionByMachineDTO>> GetProductionByMachineServiceAsync()
+        {
+            return await _tyreProductionRep.GetProductionByMachinesAsync();
+        }
+
+        public async Task<IEnumerable<ProductionByOperatorDTO>> GetProductionByOperatorServiceASync()
+        {
+            return await _tyreProductionRep.GetProductionByOperatorAsync();
+        }
+
+        public async Task<IEnumerable<StockBalanceDTO>> GetStockBalanceServiceAsync()
+        {
+            return await _tyreProductionRep.GetStockBalanceASync();
+        }
+
     }
 }

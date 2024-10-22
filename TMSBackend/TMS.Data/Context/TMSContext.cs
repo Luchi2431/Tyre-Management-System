@@ -23,6 +23,12 @@ namespace TMS.Data.Context
 
         public DbSet<ProductionByShiftDTO> ProductionByShift { get; set; }
 
+        public DbSet<ProductionByMachineDTO> ProductionByMachine { get; set; }
+
+        public DbSet<ProductionByOperatorDTO> ProductionByOperator { get; set; }
+
+        public DbSet<StockBalanceDTO> StockBalance { get; set; }
+
 
 
 
@@ -49,6 +55,10 @@ namespace TMS.Data.Context
                 .IsUnique();
 
             modelBuilder.Entity<ProductionByDayDTO>().HasNoKey();
+            modelBuilder.Entity<ProductionByShiftDTO>().HasNoKey();
+            modelBuilder.Entity<ProductionByMachineDTO>().HasNoKey();
+            modelBuilder.Entity<ProductionByOperatorDTO>().HasNoKey();
+            modelBuilder.Entity<StockBalanceDTO>().HasNoKey();
 
 
             string operator1 = "operator1";

@@ -8,5 +8,9 @@ namespace TMS.Data.DTO
 {
     public class ProductionByOperatorDTO
     {
+        public string OperatorName { get; set; }
+
+        public int TotalProduction {  get; set; }
+
     }
 }

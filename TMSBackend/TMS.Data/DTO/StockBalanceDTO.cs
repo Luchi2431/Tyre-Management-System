@@ -10,6 +10,6 @@ namespace TMS.Data.DTO
     {
         public string TyreCode { get; set; }
 
-        public int StockBalance { get; set; }
+        public int TotalStock { get; set; }
     }
 }

@@ -16,6 +16,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByDay",
+    "RelativePath": "api/bussinesUnit/production-reports-day",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByMachine",
+    "RelativePath": "api/bussinesUnit/production-reports-machine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByOperatorId",
+    "RelativePath": "api/bussinesUnit/production-reports-operator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByShift",
+    "RelativePath": "api/bussinesUnit/production-reports-shift",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.BussinesUnitController",
+    "Method": "GetProductionByStockBalance",
+    "RelativePath": "api/bussinesUnit/production-reports-stockbalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TMS.Api.Controllers.ProductionController",
     "Method": "CreateProductionRecord",
     "RelativePath": "api/controller/createRecord",

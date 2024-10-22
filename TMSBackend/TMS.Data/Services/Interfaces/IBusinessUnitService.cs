@@ -10,5 +10,9 @@ namespace TMS.Data.Services.Interfaces
     public interface IBusinessUnitService
     {
         Task<IEnumerable<ProductionByDayDTO>> GetProductionByDayServiceAsync();
+        Task<IEnumerable<ProductionByShiftDTO>> GetProductionByShiftServiceASync();
+        Task<IEnumerable<ProductionByMachineDTO>> GetProductionByMachineServiceAsync();
+        Task<IEnumerable<ProductionByOperatorDTO>> GetProductionByOperatorServiceASync();
+        Task<IEnumerable<StockBalanceDTO>> GetStockBalanceServiceAsync();
     }
 }
