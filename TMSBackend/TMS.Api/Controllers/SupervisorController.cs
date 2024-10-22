@@ -26,7 +26,6 @@ namespace TMS.Api.Controllers
             await _supervisorService.RegisterTyreSalesAsync(tyreSalesDTO);
 
             return CreatedAtAction(nameof(RegisterTyreSale), new { id = tyreSalesDTO.Id }, tyreSalesDTO);
-
         }
 
        
