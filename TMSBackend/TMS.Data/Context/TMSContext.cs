@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TMS.Data.DTO;
 using TMS.Data.Enums;
 using TMS.Data.Models;
 
@@ -16,6 +17,15 @@ namespace TMS.Data.Context
         public DbSet<TyreSales> TyreSales { get; set; }
 
         public DbSet<User> Users { get; set; }
+
+        //DB Sets for DTO
+        public DbSet<ProductionByDayDTO> ProductionByDay { get; set; }
+
+
+
+
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -37,6 +47,9 @@ namespace TMS.Data.Context
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Username)
                 .IsUnique();
+
+            modelBuilder.Entity<ProductionByDayDTO>().HasNoKey();
+
 
             string operator1 = "operator1";
             string supervisor1= "supervisor1";
