@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TMS.Data.DTO;
 using TMS.Data.Models;
 
 namespace TMS.Data.Interfaces
@@ -11,6 +12,7 @@ namespace TMS.Data.Interfaces
     {
         Task AddAsync(ProductionRecord productionRecord);
         Task<IEnumerable<ProductionRecord>> GetByOperatorIdAsync(int operatorId);
+        ProductionDTO UpdateRecord(ProductionDTO productionDTO);
 
 
     }

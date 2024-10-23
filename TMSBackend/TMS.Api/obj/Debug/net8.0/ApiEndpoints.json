@@ -122,5 +122,51 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "UpdateProductionRecords",
+    "RelativePath": "api/supervisor/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TyreCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductionDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductionShift",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MachineNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PerformedById",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

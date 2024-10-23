@@ -12,5 +12,6 @@ namespace TMS.Data.Services.Interfaces
     {
         Task RegisterTyreSalesAsync(TyreSalesDTO tyreSalesDTO);
         Task<IEnumerable<TyreSales>> GetAllSalesAsync();
+        Task<bool> UpdateProdutionRecords(ProductionDTO productionDTO);
     }
 }

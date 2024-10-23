@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TMS.Data.DTO;
+using TMS.Data.Models;
 using TMS.Data.Services.Interfaces;
 
 namespace TMS.Api.Controllers
@@ -38,6 +39,19 @@ namespace TMS.Api.Controllers
             }
             return Ok(record);
         }
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateProductionRecords([FromForm]ProductionDTO productionDTO)
+        {
+            bool result = await _supervisorService.UpdateProdutionRecords(productionDTO);
+            if (result == false)
+            {
+                return BadRequest(new { Message = "Error while modifing record!" });
+            }
+
+            return Ok();
+
+        }
+
 
        
     }

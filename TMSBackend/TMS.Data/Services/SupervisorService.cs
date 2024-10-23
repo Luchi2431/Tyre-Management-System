@@ -10,11 +10,13 @@ namespace TMS.Data.Services
     public class SupervisorService : ISupervisorService
     {
         private readonly ITyreSalesRepository _tyreSalesRepository;
+        private readonly IProductionRecordRepository _productionRecordRepository;
         private readonly IMapper _mapper;
-        public SupervisorService(ITyreSalesRepository tyreSalesRepository, IMapper mapper)
+        public SupervisorService(ITyreSalesRepository tyreSalesRepository, IMapper mapper,IProductionRecordRepository productionRecordRepository)
         {
             _tyreSalesRepository = tyreSalesRepository;
             _mapper = mapper;
+            _productionRecordRepository = productionRecordRepository;
         }
 
         public async Task RegisterTyreSalesAsync(TyreSalesDTO tyreSalesDTO)
@@ -29,6 +31,16 @@ namespace TMS.Data.Services
         public async Task<IEnumerable<TyreSales>> GetAllSalesAsync()
         {
             return await _tyreSalesRepository.GetAllSales();
+        }
+
+        public async Task<bool> UpdateProdutionRecords(ProductionDTO productionDTO)
+        {
+            ProductionDTO newProductionDTO = _productionRecordRepository.UpdateRecord(productionDTO);
+            if(newProductionDTO == null)
+            {
+                throw new Exception("Failed to update record");
+            }
+            return true;
         }
     }
 }
