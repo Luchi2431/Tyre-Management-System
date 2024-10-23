@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TMS.Data.Context;
+using TMS.Data.DTO;
 using TMS.Data.Interfaces;
 using TMS.Data.Models;
 
@@ -24,11 +25,27 @@ namespace TMS.Data.Repositories
             await _db.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<TyreSales>> GetAllSales()
+        public async Task<IEnumerable<TyreSalesDTO>> GetAllSales()
         {
-            return await _db.TyreSales.Include(ts => ts.ReferenceProduction).ToListAsync();
+            var sales = await _db.TyreSales
+        .Include(ts => ts.ReferenceProduction)
+        .ToListAsync();
 
+            return sales.Select(ts => new TyreSalesDTO
+            {
+                Id = ts.Id,
+                TyreName = ts.TyreName,
+                QuantitySold = ts.QuantitySold,
+                UnitOfMeasure = ts.UnitOfMeasure,
+                Price = ts.Price,
+                DateOfSale = ts.DateOfSale,
+                ReferenceProductionId = ts.ReferenceProductionId,
+                DestinationMarket = ts.DestinationMarket,
+                PurchasingCompany = ts.PurchasingCompany
+            });
         }
+
+        
 
 
 

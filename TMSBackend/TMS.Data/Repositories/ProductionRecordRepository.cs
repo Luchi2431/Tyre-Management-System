@@ -29,6 +29,7 @@ namespace TMS.Data.Repositories
             await _db.SaveChangesAsync();
         }
 
+
         public async Task<IEnumerable<ProductionRecord>> GetByOperatorIdAsync(int operatorId)
         {
             return await _db.ProductionRecords.Where(pr => pr.PerformedById == operatorId).ToListAsync();

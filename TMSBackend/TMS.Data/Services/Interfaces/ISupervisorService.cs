@@ -11,7 +11,7 @@ namespace TMS.Data.Services.Interfaces
     public interface ISupervisorService
     {
         Task RegisterTyreSalesAsync(TyreSalesDTO tyreSalesDTO);
-        Task<IEnumerable<TyreSales>> GetAllSalesAsync();
+        Task<IEnumerable<TyreSalesDTO>> GetAllSalesAsync();
         Task<bool> UpdateProdutionRecords(ProductionDTO productionDTO);
     }
 }

@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TMS.Data.DTO;
-using TMS.Data.Models;
 
 namespace TMS.Data.Interfaces
 {
-    public interface ITyreSalesRepository
+    public interface ILogRepository 
     {
-        Task addTyreSalesAsync(TyreSales tyreSales);
-        Task<IEnumerable<TyreSalesDTO>> GetAllSales();
+        void AddLog(LogDTO logDto);
+
     }
 }
