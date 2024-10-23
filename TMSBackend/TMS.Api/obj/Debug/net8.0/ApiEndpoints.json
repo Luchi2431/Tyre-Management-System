@@ -112,5 +112,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "GetTyreSalesHistory",
+    "RelativePath": "api/supervisor/supervisor-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

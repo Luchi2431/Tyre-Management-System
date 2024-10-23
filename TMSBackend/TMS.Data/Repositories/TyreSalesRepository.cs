@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace TMS.Data.Repositories
             await _db.SaveChangesAsync();
         }
 
+        public async Task<IEnumerable<TyreSales>> GetAllSales()
+        {
+            return await _db.TyreSales.Include(ts => ts.ReferenceProduction).ToListAsync();
+
+        }
 
 
 

@@ -10,5 +10,6 @@ namespace TMS.Data.Interfaces
     public interface ITyreSalesRepository
     {
         Task addTyreSalesAsync(TyreSales tyreSales);
+        Task<IEnumerable<TyreSales>> GetAllSales();
     }
 }

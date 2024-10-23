@@ -25,5 +25,10 @@ namespace TMS.Data.Services
 
             await _tyreSalesRepository.addTyreSalesAsync(tyreSalesRecord);
         }
+
+        public async Task<IEnumerable<TyreSales>> GetAllSalesAsync()
+        {
+            return await _tyreSalesRepository.GetAllSales();
+        }
     }
 }

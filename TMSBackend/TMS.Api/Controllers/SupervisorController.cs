@@ -27,6 +27,17 @@ namespace TMS.Api.Controllers
 
             return CreatedAtAction(nameof(RegisterTyreSale), new { id = tyreSalesDTO.Id }, tyreSalesDTO);
         }
+        [HttpGet("supervisor-history")]
+        public async Task<IActionResult> GetTyreSalesHistory()
+        {
+            var record = await _supervisorService.GetAllSalesAsync();
+
+            if(record == null || !record.Any())
+            {
+                return NotFound("No TyreSales Record found");
+            }
+            return Ok(record);
+        }
 
        
     }
