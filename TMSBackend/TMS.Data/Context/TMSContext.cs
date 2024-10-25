@@ -18,6 +18,8 @@ namespace TMS.Data.Context
 
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Log> Logs { get; set; }
+
 
 
 
@@ -59,6 +61,7 @@ namespace TMS.Data.Context
                 .HasIndex(u => u.Username)
                 .IsUnique();
 
+
             modelBuilder.Entity<ProductionByDayDTO>().HasNoKey();
             modelBuilder.Entity<ProductionByShiftDTO>().HasNoKey();
             modelBuilder.Entity<ProductionByMachineDTO>().HasNoKey();
@@ -67,7 +70,7 @@ namespace TMS.Data.Context
 
 
             string operator1 = "operator1";
-            string supervisor1= "supervisor1";
+            string supervisor1 = "supervisor1";
             string leader1 = "leader1";
             string hashed_operator1 = BCrypt.Net.BCrypt.HashPassword(operator1);
             string hashed_supervisor1 = BCrypt.Net.BCrypt.HashPassword(supervisor1);

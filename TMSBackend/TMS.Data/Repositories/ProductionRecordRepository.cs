@@ -38,11 +38,28 @@ namespace TMS.Data.Repositories
 
         public ProductionDTO UpdateRecord(ProductionDTO productionDTO)
         {
-            ProductionRecord productionRecord = _mapper.Map<ProductionRecord>(productionDTO);
-            _db.ProductionRecords.Update(productionRecord);
-            _db.SaveChanges();
+            var existingRecord = _db.ProductionRecords.FirstOrDefault(r=>r.Id == productionDTO.Id);
+            if (existingRecord != null)
+            {
+                _mapper.Map(productionDTO,existingRecord);
+                _db.SaveChanges();
+                return _mapper.Map<ProductionDTO>(existingRecord);
+            }
+            throw new Exception("Record not found");
+        }
 
-            return _mapper.Map<ProductionDTO>(productionRecord);
+        public List<ProductionDTO> GetAll()
+        {
+            return _db.ProductionRecords.Select(r=>new ProductionDTO
+            {
+                Id = r.Id,
+                TyreCode = r.TyreCode,
+                Quantity = r.Quantity,
+                ProductionDate = r.ProductionDate,
+                ProductionShift = r.ProductionShift,
+                MachineNumber = r.MachineNumber
+            }).ToList();
+
         }
     }
 }

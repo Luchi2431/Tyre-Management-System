@@ -15,6 +15,7 @@ namespace TMS.Data.Models
         public UserRole UserRole { get; set; } // Navigation property to UserRole
 
         public ICollection<TyreProduction> TyreProductions { get; set; }
+
     }
 
 }

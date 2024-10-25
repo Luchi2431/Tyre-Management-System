@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TMS.Data.Context;
 
@@ -11,9 +12,11 @@ using TMS.Data.Context;
 namespace TMS.Data.Migrations
 {
     [DbContext(typeof(TMSContext))]
-    partial class TMSContextModelSnapshot : ModelSnapshot
+    [Migration("20241024083151_AddedMigrationFinal2")]
+    partial class AddedMigrationFinal2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -95,10 +98,17 @@ namespace TMS.Data.Migrations
                     b.Property<DateTime>("ActionDateTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("TyreProductionId")
+                        .HasColumnType("int");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TyreProductionId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Logs");
                 });
@@ -182,7 +192,7 @@ namespace TMS.Data.Migrations
                             Id = 1,
                             MachineNumber = "M001",
                             OperatorId = 1,
-                            ProductionDate = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8520),
+                            ProductionDate = new DateTime(2024, 10, 24, 10, 31, 50, 721, DateTimeKind.Local).AddTicks(6978),
                             ProductionShift = 0,
                             Quantity = 100,
                             TyreCode = "T123"
@@ -192,7 +202,7 @@ namespace TMS.Data.Migrations
                             Id = 2,
                             MachineNumber = "M002",
                             OperatorId = 1,
-                            ProductionDate = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8661),
+                            ProductionDate = new DateTime(2024, 10, 24, 10, 31, 50, 721, DateTimeKind.Local).AddTicks(7066),
                             ProductionShift = 2,
                             Quantity = 150,
                             TyreCode = "T124"
@@ -245,7 +255,7 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateOfSale = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8789),
+                            DateOfSale = new DateTime(2024, 10, 24, 10, 31, 50, 721, DateTimeKind.Local).AddTicks(7176),
                             DestinationMarket = "Local",
                             Price = 100.00m,
                             PurchasingCompany = "ABC Ltd.",
@@ -257,7 +267,7 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 2,
-                            DateOfSale = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8802),
+                            DateOfSale = new DateTime(2024, 10, 24, 10, 31, 50, 721, DateTimeKind.Local).AddTicks(7187),
                             DestinationMarket = "International",
                             Price = 120.00m,
                             PurchasingCompany = "XYZ Corp.",
@@ -298,24 +308,43 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Password = "$2a$11$RJF3hcBXSEyMkJ/mp3LnZ.ImvSJUh01Nm2oqgwsTLiczy7LyJ2ZUS",
+                            Password = "$2a$11$iPZocT3ViNKN5tLae4VbIup/YfPWEwCamQPHaO8lDCNSwBLMZL/QO",
                             UserRole = 0,
                             Username = "operator1"
                         },
                         new
                         {
                             Id = 2,
-                            Password = "$2a$11$BiKdVNJupAAIxhSa3rNjuepgoW1y893mUtmEhugCP3HJD0ZZaZGQW",
+                            Password = "$2a$11$X2Uq/lyXAK.13sE38j8IeuJ6oYlEhyt9gcH1hwe5O92C9Nj345/Xy",
                             UserRole = 1,
                             Username = "supervisor1"
                         },
                         new
                         {
                             Id = 3,
-                            Password = "$2a$11$uTDCT5MVM8dNCrRx0nXEGuuIIMxHFweUuNXU2mToUMEfxqNftQGMe",
+                            Password = "$2a$11$M2GY.Xu7F692N6to/EhLu.h36fDMliken0L8OUpADSNRQIkb91cRO",
                             UserRole = 2,
                             Username = "leader1"
                         });
+                });
+
+            modelBuilder.Entity("TMS.Data.Models.Log", b =>
+                {
+                    b.HasOne("TMS.Data.Models.TyreProduction", "TyreProduction")
+                        .WithMany()
+                        .HasForeignKey("TyreProductionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TMS.Data.Models.User", "User")
+                        .WithMany("Logs")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("TyreProduction");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("TMS.Data.Models.ProductionRecord", b =>
@@ -358,6 +387,8 @@ namespace TMS.Data.Migrations
 
             modelBuilder.Entity("TMS.Data.Models.User", b =>
                 {
+                    b.Navigation("Logs");
+
                     b.Navigation("TyreProductions");
                 });
 #pragma warning restore 612, 618

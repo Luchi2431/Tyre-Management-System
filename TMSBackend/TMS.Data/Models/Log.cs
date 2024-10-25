@@ -12,10 +12,7 @@ namespace TMS.Data.Models
         public int UserId { get; set; }
         public string Action { get; set; }
         public DateTime ActionDateTime { get; set; }
-
-        //Navigation properties
-        public TyreProduction TyreProduction { get; set; }
-        public User User {  get; set; } 
+       
 
     }
 }

@@ -22,11 +22,11 @@ namespace TMS.Data.Repositories
             _mapper = mapper;
         }
 
-        public void AddLog(LogDTO logDto)
+        public async Task AddLog(LogDTO logDto)
         {
             Log log = _mapper.Map<Log>(logDto);
-            _db.Add(log);
-            _db.SaveChanges();
+            await _db.AddAsync(log);
+            await _db.SaveChangesAsync();
 
         }
     }

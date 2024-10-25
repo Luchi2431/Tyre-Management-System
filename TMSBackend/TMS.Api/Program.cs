@@ -47,6 +47,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProductionRecordRepository, ProductionRecordRepository>();
 builder.Services.AddScoped<ITyreProductionRepository,TyreProductionRepository>();
 builder.Services.AddScoped<ITyreSalesRepository,TyreSalesRepository>();
+builder.Services.AddScoped<ILogRepository, LogRepository>();
 
 
 

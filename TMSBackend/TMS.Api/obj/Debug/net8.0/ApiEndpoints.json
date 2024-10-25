@@ -99,6 +99,16 @@
   },
   {
     "ContainingType": "TMS.Api.Controllers.SupervisorController",
+    "Method": "GetAllHistoryAsync",
+    "RelativePath": "api/supervisor/all-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Controllers.SupervisorController",
     "Method": "RegisterTyreSale",
     "RelativePath": "api/supervisor/register-sale",
     "HttpMethod": "POST",

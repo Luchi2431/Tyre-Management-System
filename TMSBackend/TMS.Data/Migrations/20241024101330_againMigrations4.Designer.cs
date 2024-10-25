@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TMS.Data.Context;
 
@@ -11,9 +12,11 @@ using TMS.Data.Context;
 namespace TMS.Data.Migrations
 {
     [DbContext(typeof(TMSContext))]
-    partial class TMSContextModelSnapshot : ModelSnapshot
+    [Migration("20241024101330_againMigrations4")]
+    partial class againMigrations4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -182,7 +185,7 @@ namespace TMS.Data.Migrations
                             Id = 1,
                             MachineNumber = "M001",
                             OperatorId = 1,
-                            ProductionDate = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8520),
+                            ProductionDate = new DateTime(2024, 10, 24, 12, 13, 29, 312, DateTimeKind.Local).AddTicks(5794),
                             ProductionShift = 0,
                             Quantity = 100,
                             TyreCode = "T123"
@@ -192,7 +195,7 @@ namespace TMS.Data.Migrations
                             Id = 2,
                             MachineNumber = "M002",
                             OperatorId = 1,
-                            ProductionDate = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8661),
+                            ProductionDate = new DateTime(2024, 10, 24, 12, 13, 29, 312, DateTimeKind.Local).AddTicks(5933),
                             ProductionShift = 2,
                             Quantity = 150,
                             TyreCode = "T124"
@@ -245,7 +248,7 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateOfSale = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8789),
+                            DateOfSale = new DateTime(2024, 10, 24, 12, 13, 29, 312, DateTimeKind.Local).AddTicks(6043),
                             DestinationMarket = "Local",
                             Price = 100.00m,
                             PurchasingCompany = "ABC Ltd.",
@@ -257,7 +260,7 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 2,
-                            DateOfSale = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8802),
+                            DateOfSale = new DateTime(2024, 10, 24, 12, 13, 29, 312, DateTimeKind.Local).AddTicks(6055),
                             DestinationMarket = "International",
                             Price = 120.00m,
                             PurchasingCompany = "XYZ Corp.",
@@ -298,21 +301,21 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Password = "$2a$11$RJF3hcBXSEyMkJ/mp3LnZ.ImvSJUh01Nm2oqgwsTLiczy7LyJ2ZUS",
+                            Password = "$2a$11$v8spPnSLcr/ZOLpx3UhiperUGwCix2CcjMtNPW89rspE4ofhK0mMu",
                             UserRole = 0,
                             Username = "operator1"
                         },
                         new
                         {
                             Id = 2,
-                            Password = "$2a$11$BiKdVNJupAAIxhSa3rNjuepgoW1y893mUtmEhugCP3HJD0ZZaZGQW",
+                            Password = "$2a$11$G6ji9zB4q5q0CerqNq0RtOrc4YZj.J0hQp/obom/zLSmPXCCSnVlO",
                             UserRole = 1,
                             Username = "supervisor1"
                         },
                         new
                         {
                             Id = 3,
-                            Password = "$2a$11$uTDCT5MVM8dNCrRx0nXEGuuIIMxHFweUuNXU2mToUMEfxqNftQGMe",
+                            Password = "$2a$11$Z0TXVdBIvYLQv/qRtXomWegwhOesl5bdCSQbg2O54au1HX9tqJTzq",
                             UserRole = 2,
                             Username = "leader1"
                         });

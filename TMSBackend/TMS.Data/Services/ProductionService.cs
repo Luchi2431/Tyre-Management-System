@@ -15,16 +15,17 @@ namespace TMS.Data.Services
     {
         private readonly IProductionRecordRepository _productionRecordRepository;
         private readonly IMapper _mapper;
+        private readonly ILogRepository _logRepository;
 
-        public ProductionService(IProductionRecordRepository productionRecordRepository,IMapper mapper)
+        public ProductionService(IProductionRecordRepository productionRecordRepository,IMapper mapper,ILogRepository logRepository)
         {
             _productionRecordRepository = productionRecordRepository;
             _mapper = mapper;
-   
+            _logRepository = logRepository;
         }
 
 
-        public async Task RegisterProductionAsync(ProductionDTO productionDTO)
+        public async Task RegisterProductionAsync(ProductionDTO productionDTO,int LogId)
         {
             var productionRecord = _mapper.Map<ProductionRecord>(productionDTO);
 
@@ -32,11 +33,16 @@ namespace TMS.Data.Services
             productionRecord.PerformedById = productionDTO.PerformedById;
 
             await _productionRecordRepository.AddAsync(productionRecord);
+            await _logRepository.AddLog(new LogDTO { UserId = LogId, Action = "Register Production", ActionDateTime = DateTime.UtcNow });
+
+            
         }
 
-        public async Task<IEnumerable<ProductionRecord>> GetProductionRecordsByOpId(int operatorId)
+        public async Task<IEnumerable<ProductionRecord>> GetProductionRecordsByOpId(int operatorId,int LogId)
         {
+            await _logRepository.AddLog(new LogDTO { UserId = LogId, Action = "Production History", ActionDateTime = DateTime.UtcNow });
             return await _productionRecordRepository.GetByOperatorIdAsync(operatorId);
+
         }
 
         

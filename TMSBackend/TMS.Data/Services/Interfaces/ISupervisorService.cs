@@ -10,8 +10,9 @@ namespace TMS.Data.Services.Interfaces
 {
     public interface ISupervisorService
     {
-        Task RegisterTyreSalesAsync(TyreSalesDTO tyreSalesDTO);
+        Task RegisterTyreSalesAsync(TyreSalesDTO tyreSalesDTO, int LogId);
         Task<IEnumerable<TyreSalesDTO>> GetAllSalesAsync();
-        Task<bool> UpdateProdutionRecords(ProductionDTO productionDTO);
+        Task<bool> UpdateProdutionRecords(ProductionDTO productionDTO, int LogId);
+        Task<List<ProductionDTO>> GetAllProductionRecordsAsync(int LogId);
     }
 }

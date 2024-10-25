@@ -13,7 +13,7 @@ namespace TMS.Data.Interfaces
         Task AddAsync(ProductionRecord productionRecord);
         Task<IEnumerable<ProductionRecord>> GetByOperatorIdAsync(int operatorId);
         ProductionDTO UpdateRecord(ProductionDTO productionDTO);
-
+        List<ProductionDTO> GetAll();
 
     }
 }

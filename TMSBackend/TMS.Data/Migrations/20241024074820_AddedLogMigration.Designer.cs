@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TMS.Data.Context;
 
@@ -11,9 +12,11 @@ using TMS.Data.Context;
 namespace TMS.Data.Migrations
 {
     [DbContext(typeof(TMSContext))]
-    partial class TMSContextModelSnapshot : ModelSnapshot
+    [Migration("20241024074820_AddedLogMigration")]
+    partial class AddedLogMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,29 +81,6 @@ namespace TMS.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.ToTable("StockBalance");
-                });
-
-            modelBuilder.Entity("TMS.Data.Models.Log", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Action")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ActionDateTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Logs");
                 });
 
             modelBuilder.Entity("TMS.Data.Models.ProductionRecord", b =>
@@ -182,7 +162,7 @@ namespace TMS.Data.Migrations
                             Id = 1,
                             MachineNumber = "M001",
                             OperatorId = 1,
-                            ProductionDate = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8520),
+                            ProductionDate = new DateTime(2024, 10, 24, 9, 48, 19, 769, DateTimeKind.Local).AddTicks(9493),
                             ProductionShift = 0,
                             Quantity = 100,
                             TyreCode = "T123"
@@ -192,7 +172,7 @@ namespace TMS.Data.Migrations
                             Id = 2,
                             MachineNumber = "M002",
                             OperatorId = 1,
-                            ProductionDate = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8661),
+                            ProductionDate = new DateTime(2024, 10, 24, 9, 48, 19, 769, DateTimeKind.Local).AddTicks(9637),
                             ProductionShift = 2,
                             Quantity = 150,
                             TyreCode = "T124"
@@ -245,7 +225,7 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateOfSale = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8789),
+                            DateOfSale = new DateTime(2024, 10, 24, 9, 48, 19, 769, DateTimeKind.Local).AddTicks(9747),
                             DestinationMarket = "Local",
                             Price = 100.00m,
                             PurchasingCompany = "ABC Ltd.",
@@ -257,7 +237,7 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 2,
-                            DateOfSale = new DateTime(2024, 10, 25, 11, 27, 49, 676, DateTimeKind.Local).AddTicks(8802),
+                            DateOfSale = new DateTime(2024, 10, 24, 9, 48, 19, 769, DateTimeKind.Local).AddTicks(9759),
                             DestinationMarket = "International",
                             Price = 120.00m,
                             PurchasingCompany = "XYZ Corp.",
@@ -298,21 +278,21 @@ namespace TMS.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Password = "$2a$11$RJF3hcBXSEyMkJ/mp3LnZ.ImvSJUh01Nm2oqgwsTLiczy7LyJ2ZUS",
+                            Password = "$2a$11$AimxjZ6anlQNj/OYL9HLreWIW4YRyCfDVMMAxwp41XcbxWdhQelzy",
                             UserRole = 0,
                             Username = "operator1"
                         },
                         new
                         {
                             Id = 2,
-                            Password = "$2a$11$BiKdVNJupAAIxhSa3rNjuepgoW1y893mUtmEhugCP3HJD0ZZaZGQW",
+                            Password = "$2a$11$76rg4v2AF1q0RWsgoTGVwOMUdLzg0QP/fcTmEaDSoAvgpyeZdbMAO",
                             UserRole = 1,
                             Username = "supervisor1"
                         },
                         new
                         {
                             Id = 3,
-                            Password = "$2a$11$uTDCT5MVM8dNCrRx0nXEGuuIIMxHFweUuNXU2mToUMEfxqNftQGMe",
+                            Password = "$2a$11$6jANQdiIYze5OS/zRZGE8.WO8xqnJv4zOZWrRESOsfy2/TrbhmknW",
                             UserRole = 2,
                             Username = "leader1"
                         });

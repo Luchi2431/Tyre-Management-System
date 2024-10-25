@@ -10,7 +10,7 @@ namespace TMS.Data.Services.Interfaces
 {
     public interface IUserService
     {
-        Task<LoginResultDTO> LoginAsync(string username, string password);
+        Task<LoginResultDTO> LoginAsync(string username, string password,int userId);
         
 
     }

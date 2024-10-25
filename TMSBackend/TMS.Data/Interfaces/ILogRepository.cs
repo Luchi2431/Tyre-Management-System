@@ -9,7 +9,7 @@ namespace TMS.Data.Interfaces
 {
     public interface ILogRepository 
     {
-        void AddLog(LogDTO logDto);
+        Task AddLog(LogDTO logDto);
 
     }
 }

@@ -29,6 +29,7 @@ namespace TMS.Data.Map
             .ForMember(dest => dest.ReferenceProductionId, opt => opt.MapFrom(src => src.ReferenceProductionId));
 
             CreateMap<LogDTO, Log>().ReverseMap();
+            
         }
     }
 }

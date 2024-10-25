@@ -22,7 +22,14 @@ namespace TMS.Api.Controllers
         {
             try
             {
-                var loginResult = await _userService.LoginAsync(loginDTO.Username, loginDTO.Password);
+                var userId = User.Claims.FirstOrDefault(c => c.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier");
+                int LogId = 0;
+
+                if (userId != null)
+                {
+                    LogId = int.Parse(userId.Value);
+                }
+                var loginResult = await _userService.LoginAsync(loginDTO.Username, loginDTO.Password,LogId);
                 if(loginResult  == null)
                 {
                     return BadRequest(new { Message = "Login Failed" });
