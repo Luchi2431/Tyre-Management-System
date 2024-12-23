@@ -1,9 +1,10 @@
 import './App.css';
-import LogIn from './Component/Authorization/LogIn';
+import LogIn from './Components/Authorization/Login';
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ProductionOperator from './Component/Authorization/ProductionOperator';
-import QualitySupervisor from './Component/Authorization/QualitySupervisor';
-import BusinessUnitLeader from './Component/Authorization/BusinessUnitLeader';
+import ProductionOperator from './Components/Authorization/ProductionOperator';
+import QualitySupervisor from './Components/Authorization/QualitySupervisor';
+import BusinessUnitLeader from './Components/Authorization/BussinesUnitLeader';
+
 function App() {
   return (
     <main className="App">
