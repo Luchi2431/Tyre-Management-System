@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import Link from "@mui/material/Link";
 import { Navigate, useNavigate } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { jwtDecode } from "jwt-decode";
 
 const Login = () => {
     const [username, setUsername] = useState(''); 
@@ -12,34 +12,44 @@ const Login = () => {
 
     const loginHandler = (event) => {
         event.preventDefault();
-        console.log('fja');
         
-        axios.post(
-            "https://localhost:3000/User/login",
-            {
-                username: username, 
-                password: password 
-            },
-            {
-                headers: {}
-            }
-        )
+        axios.post(`https://localhost:44386/api/authentification/login`, {
+            username: username, 
+            password: password 
+        })
         .then((response) => {
-            console.log('id', response.data.id);
-            localStorage.setItem('token', response.data.jwtToken);
-            localStorage.setItem('id', response.data.id);
-
-            if (username.includes('Supervisor')) {
-                navigate('/QualitySupervisor ');
-            } else if (username.includes('Operator')) {
+            const token = response.data.token;
+            localStorage.setItem('token', token);
+            localStorage.setItem('id', response.data.userId);
+            
+            // Decode token to extract the role
+            const decodedToken = jwtDecode(token);
+            const role = decodedToken["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+            localStorage.setItem('role', role);
+            
+            // Navigate based on role
+            if (role === 'QualitySupervisor') {
+                navigate('/QualitySupervisor');
+            } else if (role === 'ProductionOperator') {
                 navigate('/ProductionOperator');
+            } else if (role === 'BusinessUnitLeader') {
+                navigate('/BusinessUnitLeader');
             } else {
-                navigate('/BusinessUnitLeader ');
+                console.error('Unexpected role:', role);
             }
         })
         .catch((error) => {
-            
-            console.log("error", error.response.data);
+            localStorage.removeItem('token');
+            localStorage.removeItem('id');
+            localStorage.removeItem('role');
+            if (error.response) {
+                console.log("Response data:", error.response.data);
+                console.log("Response status:", error.response.status);
+            } else if (error.request) {
+                console.log("Request made but no response received:", error.request);
+            } else {
+                console.log("Error:", error.message);
+            }
         });
     }
 
@@ -126,4 +136,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Login;
